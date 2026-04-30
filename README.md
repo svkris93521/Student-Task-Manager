@@ -15,12 +15,18 @@ A beautifully designed, dark-themed, cross-platform task management application 
 
 <div align="center">
   <img src="assets/screenshots/login.png" width="220" alt="Welcome / Login Screen"/>
+    &nbsp;&nbsp;&nbsp;
+  <img src="assets/screenshots/landing_page.png" width="220" alt="Status Dashboard"/>
   &nbsp;&nbsp;&nbsp;
   <img src="assets/screenshots/dashboard.png" width="220" alt="Status Dashboard"/>
   &nbsp;&nbsp;&nbsp;
   <img src="assets/screenshots/add_task.png" width="220" alt="Create New Task"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="assets/screenshots/pomodoro.png" width="220" alt="Pomodoro Focus Mode"/>
+    <img src="assets/screenshots/edit_task.png" width="220" alt="Create New Task"/>
+  &nbsp;&nbsp;&nbsp;
+    <img src="assets/screenshots/delete_task.png" width="220" alt="Create New Task"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/screenshots/focus_mode.png" width="220" alt="Pomodoro Focus Mode"/>
 </div>
 
 ## 🛠 Tech Stack
