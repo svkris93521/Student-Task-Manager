@@ -61,10 +61,10 @@ class TaskModel {
       isCompleted: isDone,
       createdAt: object.createdAt ?? DateTime.now(),
       parseObject: object,
-      courseName: object.get<String>('courseName'),
-      courseColorHex: object.get<String>('courseColorHex'),
+      courseName: object.get<String>('courseName') ?? object.get<String>('course_tag'),
+      courseColorHex: object.get<String>('courseColorHex') ?? object.get<String>('course_color'),
       weight: (object.get<num>('weight') ?? 0.0).toDouble(),
-      dueDate: object.get<DateTime>('dueDate'),
+      dueDate: object.get<DateTime>('dueDate') ?? object.get<DateTime>('time_left'),
       status: currentStatus,
       isRecurring: object.get<bool>('isRecurring') ?? false,
     );
