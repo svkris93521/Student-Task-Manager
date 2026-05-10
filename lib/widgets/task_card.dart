@@ -23,7 +23,7 @@ class TaskCard extends StatelessWidget {
     final bool isDone = task.status == 'completed';
     final int? daysLeft = task.daysRemaining;
     
-    Color daysColor = AppTheme.textSecondary;
+    Color daysColor = AppTheme.primary;
     if (daysLeft != null) {
       if (daysLeft < 0) {
         daysColor = AppTheme.error;
